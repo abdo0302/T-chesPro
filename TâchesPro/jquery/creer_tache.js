@@ -1,0 +1,22 @@
+$(function(){
+    $('.creer_tach').on("click",function(){
+            $.ajax({
+            method:'POST',
+            url:'./ajax/creer_tache.php',
+            data:{
+                title:$(".input_tetle").val(),Description:$(".input_Description").val(),Date:$(".input_date").val(),complete:$(".complete").val(),prioritai:$(".prioritai").val(),catégori:$(".catégories").val()},
+            success:function(data){
+                $(".input_tetle").val('')
+                $(".input_Description").val('')
+                $(".input_date").val('')
+                $(".complete").val('')
+                $(".prioritai").val('')
+                $(".catégories").val('')
+                //alert(data)
+                //$('#hh').html(data);
+                //console.log(data)
+            }
+        }) 
+           
+    })
+})

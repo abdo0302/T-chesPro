@@ -1,0 +1,14 @@
+///////////Admin///////////
+id,nom,email,mot_de_passe,image,est_admin
+admin,admin@gmail.com,gtrn756uyn,55.jpg,7
+
+///////////Users///////////
+id,nom,email,mot_de_passe,image,est_admin
+7,admin,admin@gmail.com,gtrn756uyn,55.jpg,1
+8,salma,salma@gmail.com,mgi7ibgjh,Girl-Download-PNG.png,0
+10,abdo,abdo@gmail.com,abljho0nhij,WhatsApp Image 2024-04-08 at 14.21.56.jpeg,0
+
+
+///////////les Tache///////////
+id,titre,contenu,date_creation,complete,prioritai,categorie,auteur_id
+41,fghmk,mdftku,2024-05-23,completet,Très important,aqaqaq,8

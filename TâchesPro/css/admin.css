@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+}
+/*aside start*/
+aside{
+    background-color: #111c43;
+    width: 190px;
+    height: 100vh;
+}
+.contenar_logo{
+    display: flex;
+    justify-content: center;
+    padding: 13px 0;
+    border-bottom: 1px solid #374168;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(253, 246, 231);
+}
+.logo span{
+    font-weight: 800;
+    color: blue;
+}
+nav{
+    display: flex;
+    gap: 2px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 80%;
+}
+nav span{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+nav span:hover{
+    background-color: #000105;
+}
+nav span img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.button_log_out{
+    margin-top: auto;
+}
+/*main start*/
+main{
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 190px);
+    height: 100vh;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #adadad;
+    padding: 10px 20px;
+}
+.contenar_icon_bar i{
+    font-size: 19px;
+    margin-left: 6px;
+}
+.contenar_info_user{
+    display: flex;
+    align-items: center;
+}
+.contenar_icone_settings img{
+    width: 30px;
+    height: 30px;
+}
+.log_name{
+    background-color: blueviolet;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.email{
+    font-size: 12px;
+}
+
+/*Dashboards*/
+.Dashboards{
+    display: flex;
+    padding: 20px;
+    padding-bottom:0px;
+    justify-content: center;
+}
+.div_left{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nomber_all{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 13px;
+    padding: 22px 15px;
+    margin: 8px;
+    box-shadow: 2px 2px 8px rgb(182, 181, 181);
+}
+.nomber_all div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nomber_all div img{
+    width: 30px;
+    height: 30px;
+}
+.nomber_all div span{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.contenar_users{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px rgb(197, 197, 197);
+    margin: 8px;
+}
+.conrenar_tetle{
+    display: flex;
+    padding: 9px;
+    border-bottom:1px solid rgb(190, 190, 190) ;
+}
+.conrenar_tetle span{
+   font-weight: 600;
+   border-left:4px solid blueviolet ;
+   padding-left: 4px;
+}
+.all_user{
+    display: flex;
+    height: 300px;
+    overflow: auto;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.cl_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.log_name img{
+    width: 44px;
+    height: 44px;
+    border-radius: 30px;
+}
+.div_right{
+    height: 80vh;
+    width: calc(100% - 20%);
+    margin: 8px;
+    box-shadow: 2px 2px 8px rgb(163, 163, 163);
+}
+.log_name{
+    font-size: 13px;
+}
+.button_sup{
+    margin-left: 20px;
+}
+
+/**/
+.image_profile{
+    width: 44px;
+    height: 44px;
+    border-radius: 20px;
+}

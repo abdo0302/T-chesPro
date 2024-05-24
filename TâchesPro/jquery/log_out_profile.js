@@ -1,0 +1,14 @@
+$(function(){
+    $('.log_ouT').on("click",function(){
+            $.ajax({
+            method:'POST',
+            url:'./ajax/log_out.php',
+            data:{out:'ok'},
+            success:function(data){
+                if(data=='ok'){
+                    window.location.href='index.php'
+                }
+            }
+        })   
+    })
+})
